@@ -19,17 +19,19 @@
 \pdfcompresslevel=9
 \pdfminorversion=5
 \pdfobjcompresslevel=2
-
+\usepackage{subcaption}
+\usepackage{subfig}
 % Needed to create a PDF/A file
 \usepackage[a-1b]{pdfx}
-
+\usepackage{longtable}
 % Incude pdf docs
 \usepackage{pdfpages}
 % For transferring hyperlinks from PDFs added by pdfpages
 \usepackage{pax}
-
+\usepackage{float}
 % For dialect-specific hyphenation etc.
 \usepackage[american]{babel}
+\usepackage{cleveref}
 
 % T1 font encoding
 \usepackage[T1]{fontenc}
@@ -360,17 +362,17 @@ natbib = true
 %\bibliography{IEEEabrv,classics}
 %
 % APPENDICES
-\begin{appendices}
+%\begin{appendices}
 % Appendix I
-\include{text/12-appendix-i}
+%\include{text/12-appendix-i}
 % Appendix II
-\include{text/13-appendix-ii}
-\end{appendices}
+%\include{text/13-appendix-ii}
+%\end{appendices}
 %
 %%% CV %%%
 \include{text/15-my-original-cv}
 %
 %%% Biographical Sketch %%%
-\include{text/16-biographical-sketch}
+%\include{text/16-biographical-sketch}
 %
 \end{document}
