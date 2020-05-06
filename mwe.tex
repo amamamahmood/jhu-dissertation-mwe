@@ -220,13 +220,14 @@
 style = nature, 
 sorting = none, 
 %dashed = false,
-%maxbibnames = 99,
+maxbibnames = 99,
 backend = biber,
 url=false,
 isbn=false,
 natbib = true
 ]{biblatex}
-
+% Needed to create a PDF/A file
+\usepackage[a-1b]{pdfx}
 % Point to bibfile
 \addbibresource{classics.bib}
 
